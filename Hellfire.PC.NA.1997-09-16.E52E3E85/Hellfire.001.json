@@ -1,0 +1,26 @@
+{
+    "Game":  "Hellfire",
+    "Platform":  "PC",
+    "Region":  "NA",
+    "CountryCodeIsoAlpha2":  "US",
+    "SerialNumber": null,
+    "RingCodes":  {
+                      "MasteringCode":  "AD/CA 24400 19 8 \u003c8093\u003e S6995710",
+                      "IfpiMasteringSidCode":  "IFPI L488",
+                      "EngravedStampedMasteringCode":  "PP1",
+                      "IfpiMouldSidCode":  "IFPI 8153"
+                  },
+    "Checksums":  [
+                      {
+                          "FileName":  "Hellfire.bin",
+                          "Algorithm":  "SHA256",
+                          "Hash":  "20BCA53FD3260161C114A782D930354D0345E38DDD2D221345C33D6F35F6340D"
+                      },
+                      {
+                          "FileName":  "Hellfire.cue",
+                          "Algorithm":  "SHA256",
+                          "Hash":  "12D844AABF36AFEEE14ADD59E0EBD14512CD094283E36270E27D4004E202E47D"
+                      }
+                  ],
+    "DumpDateTime":  "2020-01-01T21:10:45+01:00"
+}
