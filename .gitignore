@@ -1,0 +1,25 @@
+# Disc image files
+*.iso
+*.bin
+*.img
+*.cue
+*.ccd
+*.sub
+
+# Disc Image Creator output files
+*.c2
+*.dat
+*.img_EccEdc.txt
+*.scm
+*_c2Error.txt
+*_cmd.txt
+*_disc.txt
+*_drive.txt
+*_img.cue
+*_mainError.txt
+*_mainInfo.txt
+*_subError.txt
+*_subInfo.txt
+*_subIntention.txt
+*_subReadable.txt
+*_volDesc.txt
