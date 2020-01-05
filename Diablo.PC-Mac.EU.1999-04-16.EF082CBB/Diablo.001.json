@@ -1,0 +1,26 @@
+{
+    "Game":  "Diablo",
+    "Platform":  "PC-Mac",
+    "Region":  "EU",
+    "CountryCodeIsoAlpha2":  "DE",
+    "SerialNumber":  null,
+    "RingCodes":  {
+                      "MasteringCode":  "SODIABLOFE 23APR99 01 @@ 4",
+                      "IfpiMasteringSidCode":  "IFPI L032",
+                      "EngravedStampedMasteringCode":  "03",
+                      "IfpiMouldSidCode":  "IFPI 1202"
+                  },
+    "Checksums":  [
+                      {
+                          "FileName":  "Diablo.bin",
+                          "Algorithm":  "SHA256",
+                          "Hash":  "7F950BDDFC1D821F0A15ED98B7915C472D102E1A606290F49B98CCBF78130932"
+                      },
+                      {
+                          "FileName":  "Diablo.cue",
+                          "Algorithm":  "SHA256",
+                          "Hash":  "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
+                      }
+                  ],
+    "DumpDateTime":  "2020-01-04T15:19:21+01:00"
+}
