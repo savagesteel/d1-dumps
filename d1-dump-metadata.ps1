@@ -68,6 +68,9 @@ $metadata | Add-Member -MemberType NoteProperty -Name Game -Value $game
 $metadata | Add-Member -MemberType NoteProperty -Name Platform -Value $platform
 $metadata | Add-Member -MemberType NoteProperty -Name Region -Value $region
 
+$metadata | Add-Member -MemberType NoteProperty -Name Description `
+    -Value (Read-Host -Prompt 'Description')
+
 if( $platform -eq 'PSX' )
 {
     $metadata | Add-Member -MemberType NoteProperty -Name CountryCodeIsoAlpha2 -Value $null
