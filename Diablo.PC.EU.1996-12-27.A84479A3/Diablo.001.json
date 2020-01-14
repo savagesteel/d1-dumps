@@ -2,8 +2,9 @@
     "Game":  "Diablo",
     "Platform":  "PC",
     "Region":  "EU",
+    "Description":  "Diablo retail",
     "CountryCodeIsoAlpha2":  "GB",
-    "SerialNumber": null,
+    "SerialNumber":  null,
     "RingCodes":  {
                       "MasteringCode":  "DA-025-DBLO-UNI SI0434 MADE IN IRELAND BY SATURN",
                       "IfpiMasteringSidCode":  null,

@@ -3,6 +3,7 @@
     "Platform":  "PSX",
     "Region":  "NTSC-UC",
     "CountryCodeIsoAlpha2":  null,
+    "Description":  null,
     "SerialNumber":  "SLUS-00619",
     "RingCodes":  {
                       "MasteringCode":  null,
