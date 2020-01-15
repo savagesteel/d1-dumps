@@ -3,7 +3,8 @@
     "Platform":  "PC-Mac",
     "Region":  "NA",
     "CountryCodeIsoAlpha2":  "US",
-    "SerialNumber": null,
+    "Description":  "Diablo game of the year retail",
+    "SerialNumber":  null,
     "RingCodes":  {
                       "MasteringCode":  "800324S S7118810 DIABLO JCPK 04",
                       "IfpiMasteringSidCode":  "IFPI LL26",

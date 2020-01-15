@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "EU",
+  "CountryCodeIsoAlpha2": "NL",
+  "Description": "Diablo game of the year retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "DCG 601367 02 ",
+    "IfpiMasteringSidCode": "IFPI L506",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 8711"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "0198F350C86E9E58C524221B0620136C50EF30A584277F2CE8388B0C7DE09000"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
+    }
+  ],
+  "DumpDateTime": "2020-01-14T21:46:20+01:00"
+}

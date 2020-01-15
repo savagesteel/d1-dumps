@@ -3,7 +3,8 @@
     "Platform":  "PC-Mac",
     "Region":  "NA",
     "CountryCodeIsoAlpha2":  "US",
-    "SerialNumber": null,
+    "Description":  "Diablo game of the year retail",
+    "SerialNumber":  null,
     "RingCodes":  {
                       "MasteringCode":  "MFG BY CREST NATIONAL - CA 33982 59 S7118810 Diablo JCPK M/W CD CN/CA",
                       "IfpiMasteringSidCode":  "IFPI LR68",

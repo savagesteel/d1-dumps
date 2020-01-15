@@ -71,6 +71,7 @@ $metadata | Add-Member -MemberType NoteProperty -Name Region -Value $region
 if( $platform -eq 'PSX' )
 {
     $metadata | Add-Member -MemberType NoteProperty -Name CountryCodeIsoAlpha2 -Value $null
+    $metadata | Add-Member -MemberType NoteProperty -Name Description -Value $null
     $metadata | Add-Member -MemberType NoteProperty -Name SerialNumber `
         -Value (Read-Host -Prompt 'Serial Number')
 }
@@ -78,6 +79,8 @@ else
 {
     $metadata | Add-Member -MemberType NoteProperty -Name CountryCodeIsoAlpha2 `
         -Value (Read-Host -Prompt 'ISO 3166 Alpha 2 Country Code')
+    $metadata | Add-Member -MemberType NoteProperty -Name Description `
+        -Value (Read-Host -Prompt 'Description')
     $metadata | Add-Member -MemberType NoteProperty -Name SerialNumber -Value $null
 }
 Write-Host -Object ''

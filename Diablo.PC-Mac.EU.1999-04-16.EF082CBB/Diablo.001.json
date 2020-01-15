@@ -3,9 +3,10 @@
     "Platform":  "PC-Mac",
     "Region":  "EU",
     "CountryCodeIsoAlpha2":  "DE",
+    "Description":  "Diablo and Hellfire retail bundle",
     "SerialNumber":  null,
     "RingCodes":  {
-                      "MasteringCode":  "SODIABLOFE 23APR99 01 @@ 4",
+                      "MasteringCode":  "SODIABLOFE 23APR99 MPO 01 @@ 4",
                       "IfpiMasteringSidCode":  "IFPI L032",
                       "EngravedStampedMasteringCode":  "03",
                       "IfpiMouldSidCode":  "IFPI 1202"

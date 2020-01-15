@@ -3,7 +3,8 @@
     "Platform":  "PC-Mac",
     "Region":  "NA",
     "CountryCodeIsoAlpha2":  "US",
-    "SerialNumber": null,
+    "Description":  "Diablo Power Macintosh game of the year retail",
+    "SerialNumber":  null,
     "RingCodes":  {
                       "MasteringCode":  "03734",
                       "IfpiMasteringSidCode":  "IFPI L151",

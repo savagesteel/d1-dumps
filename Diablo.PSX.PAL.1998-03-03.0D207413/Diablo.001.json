@@ -3,6 +3,7 @@
     "Platform":  "PSX",
     "Region":  "PAL",
     "CountryCodeIsoAlpha2":  null,
+    "Description":  null,
     "SerialNumber":  "SLES 01156",
     "RingCodes":  {
                       "MasteringCode":  null,
