@@ -1,27 +1,27 @@
 {
-    "Game":  "Diablo",
-    "Platform":  "PC",
-    "Region":  "EU",
-    "CountryCodeIsoAlpha2":  "FR",
-    "Description":  "Diablo retail",
-    "SerialNumber":  null,
-    "RingCodes":  {
-                      "MasteringCode":  "5051040 29 DEC 96 MPO 01 @@ 9",
-                      "IfpiMasteringSidCode":  "IFPI 032",
-                      "EngravedStampedMasteringCode":  "03",
-                      "IfpiMouldSidCode":  "IFPI 120D"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "5A084F6F1922A3338BF2DDB6D50CB8CE4B23F9BF9F311F0898A81CCBF67FC4AC"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
-                      }
-                  ],
-    "DumpDateTime":  "2020-01-02T21:29:11+01:00"
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "EU",
+  "CountryCodeIsoAlpha2": "FR",
+  "Description": "Diablo retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "5051040 29 DEC 96 MPO 01 @@ 9",
+    "IfpiMasteringSidCode": "IFPI 032",
+    "EngravedStampedMasteringCode": "03",
+    "IfpiMouldSidCode": "IFPI 120D"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "5A084F6F1922A3338BF2DDB6D50CB8CE4B23F9BF9F311F0898A81CCBF67FC4AC"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
+    }
+  ],
+  "DumpDateTime": "2020-01-02T21:29:11+01:00"
 }
