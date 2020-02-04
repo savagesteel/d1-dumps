@@ -1,27 +1,27 @@
 {
-    "Game":  "Hellfire",
-    "Platform":  "PC",
-    "Region":  "EU",
-    "CountryCodeIsoAlpha2":  "GB",
-    "Description":  "Hellfire retail",
-    "SerialNumber":  null,
-    "RingCodes":  {
-                      "MasteringCode":  "S0011761 SI0976 MADE IN IRELAND BY SATURN",
-                      "IfpiMasteringSidCode":  "IFPI LG01",
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  null
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Hellfire.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "CFD093D7CEF2BC47C61AA9A21CD1E8F0245F8F352F88853214AC11A7C3F667AA"
-                      },
-                      {
-                          "FileName":  "Hellfire.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "12D844AABF36AFEEE14ADD59E0EBD14512CD094283E36270E27D4004E202E47D"
-                      }
-                  ],
-    "DumpDateTime":  "2020-01-04T11:04:11+01:00"
+  "Game": "Hellfire",
+  "Platform": "PC",
+  "Region": "EU",
+  "CountryCodeIsoAlpha2": "GB",
+  "Description": "Hellfire retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "S0011761 SI0976 MADE IN IRELAND BY SATURN",
+    "IfpiMasteringSidCode": "IFPI LG01",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": null
+  },
+  "Checksums": [
+    {
+      "FileName": "Hellfire.bin",
+      "Algorithm": "SHA256",
+      "Hash": "CFD093D7CEF2BC47C61AA9A21CD1E8F0245F8F352F88853214AC11A7C3F667AA"
+    },
+    {
+      "FileName": "Hellfire.cue",
+      "Algorithm": "SHA256",
+      "Hash": "12D844AABF36AFEEE14ADD59E0EBD14512CD094283E36270E27D4004E202E47D"
+    }
+  ],
+  "DumpDateTime": "2020-01-04T11:04:11+01:00"
 }

@@ -1,27 +1,27 @@
 {
-    "Game":  "Diablo",
-    "Platform":  "PC-Mac",
-    "Region":  "NA",
-    "CountryCodeIsoAlpha2":  "US",
-    "Description":  "Diablo game of the year retail",
-    "SerialNumber":  null,
-    "RingCodes":  {
-                      "MasteringCode":  "MFG BY CREST NATIONAL - CA 33982 59 S7118810 Diablo JCPK M/W CD CN/CA",
-                      "IfpiMasteringSidCode":  "IFPI LR68",
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI U8B4"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "0136115BD45DCFC98F7DA169D6B0AC3C6F61CD7D1234D796AA5EFD038AA6C180"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
-                      }
-                  ],
-    "DumpDateTime":  "2019-12-31T17:50:36+01:00"
+  "Game": "Diablo",
+  "Platform": "PC-Mac",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Diablo game of the year retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "MFG BY CREST NATIONAL - CA 33982 59 S7118810 Diablo JCPK M/W CD CN/CA",
+    "IfpiMasteringSidCode": "IFPI LR68",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI U8B4"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "0136115BD45DCFC98F7DA169D6B0AC3C6F61CD7D1234D796AA5EFD038AA6C180"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
+    }
+  ],
+  "DumpDateTime": "2019-12-31T17:50:36+01:00"
 }
