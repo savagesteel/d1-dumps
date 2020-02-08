@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo",
+  "Platform": "PSX",
+  "Region": "PAL",
+  "CountryCodeIsoAlpha2": null,
+  "Description": null,
+  "SerialNumber": "SLES 01156",
+  "RingCodes": {
+    "MasteringCode": null,
+    "IfpiMasteringSidCode": null,
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 94B1"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "A8E56CA1FA612B6F164ABF4452492F2E0F1598EC64A43610F23A499A10476FA0"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
+    }
+  ],
+  "DumpDateTime": "2020-01-04T13:26:45+01:00"
+}
