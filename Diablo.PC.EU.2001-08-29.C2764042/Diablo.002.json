@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "EU",
+  "CountryCodeIsoAlpha2": "GB",
+  "Description": "Diablo XPLOSIV",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "EI-1554 11/7/02",
+    "IfpiMasteringSidCode": "IFPI LR61",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI RZ08"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "FD3C1E1BE3492848B7C0179BDAB51DBBDFBDD0DE1448B48F0C58A24374F071F0"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
+    }
+  ],
+  "DumpDateTime": "2020-02-15T14:21:10+01:00"
+}
