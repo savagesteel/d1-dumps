@@ -1,27 +1,27 @@
 {
-    "Game":  "Diablo",
-    "Platform":  "PSX",
-    "Region":  "NTSC-J",
-    "CountryCodeIsoAlpha2":  null,
-    "Description":  null,
-    "SerialNumber":  "SLPS 01416",
-    "RingCodes":  {
-                      "MasteringCode":  null,
-                      "IfpiMasteringSidCode":  null,
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI 453C"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "CE91D48DA5B561B7C148FB08245401DED1948408B9E748E6D8495EE5D304C630"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
-                      }
-                  ],
-    "DumpDateTime":  "2020-01-03T22:17:55+01:00"
+  "Game": "Diablo",
+  "Platform": "PSX",
+  "Region": "NTSC-J",
+  "CountryCodeIsoAlpha2": null,
+  "Description": null,
+  "SerialNumber": "SLPS 01416",
+  "RingCodes": {
+    "MasteringCode": null,
+    "IfpiMasteringSidCode": null,
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 453C"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "CE91D48DA5B561B7C148FB08245401DED1948408B9E748E6D8495EE5D304C630"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
+    }
+  ],
+  "DumpDateTime": "2020-01-03T22:17:55+01:00"
 }
