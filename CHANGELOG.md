@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 0.17.0 - 2020-03-13
+### Added
+- One dump for `Diablo.PC.EU.2001-08-29.C2764042`.
+
 ## 0.16.0 - 2020-02-15
 ### Added
 - One dump for `Hellfire.PC.EU.1997-11-18.F04808A3`.
