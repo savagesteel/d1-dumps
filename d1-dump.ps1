@@ -31,7 +31,7 @@ Param
     [String]
     $DriveLetter,
     [Parameter(Mandatory=$true,ValueFromPipeline=$false)]
-    [ValidateSet('Diablo','Hellfire')]
+    [ValidateSet('Diablo','Diablo-Shareware','Hellfire')]
     [String]
     $Game,
     [Parameter(Mandatory=$true,ValueFromPipeline=$false)]
