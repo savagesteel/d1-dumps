@@ -96,59 +96,61 @@ __NOTE:__ One disc image dump folder can contain mutiple JSON metadata files, on
 Example JSON metadata file (Diablo PC):
 ```json
 {
-    "Game":  "Diablo",
-    "Platform":  "PC-Mac",
-    "Region":  "NA",
-    "CountryCodeIsoAlpha2":  "US",
-    "SerialNumber": null,
-    "RingCodes":  {
-                      "MasteringCode":  "MFG BY CREST NATIONAL - CA 33982 59 S7118810 Diablo JCPK M/W CD CN/CA",
-                      "IfpiMasteringSidCode":  "IFPI LR68",
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI U8B4"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "0136115BD45DCFC98F7DA169D6B0AC3C6F61CD7D1234D796AA5EFD038AA6C180"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
-                      }
-                  ],
-    "DumpDateTime":  "2019-12-31T17:50:36+01:00"
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Diablo retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "FM11537(14210/DA0001) B312394-2",
+    "IfpiMasteringSidCode": "IFPI L806",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 3V11"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "F0357A308C575E2FEBB9FA1D48E501E3945F81372538758A6ABE0D7F95198324"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "6B80499E2D721D77298833E1B87B8431E16562DF7AFB07B762F8F28525EA1D4A"
+    }
+  ],
+  "DumpDateTime": "2020-02-03T20:07:22+01:00"
 }
 ```
 
 Example JSON metadata file (Diablo PlayStation):
 ```json
 {
-    "Game":  "Diablo",
-    "Platform":  "PSX",
-    "Region":  "NTSC-UC",
-    "CountryCodeIsoAlpha2":  null,
-    "SerialNumber":  "SLUS-00619",
-    "RingCodes":  {
-                      "MasteringCode":  null,
-                      "IfpiMasteringSidCode":  null,
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI 5008"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "A68BF47E0D0E070B69E6E8864807D2CD2F94AEEB5F23D2508594ADEA4E4EE53F"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
-                      }
-                  ],
-    "DumpDateTime":  "2020-01-02T23:25:51+01:00"
+  "Game": "Diablo",
+  "Platform": "PSX",
+  "Region": "NTSC-UC",
+  "CountryCodeIsoAlpha2": null,
+  "Description": null,
+  "SerialNumber": "SLUS-00619",
+  "RingCodes": {
+    "MasteringCode": null,
+    "IfpiMasteringSidCode": null,
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 5008"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "A68BF47E0D0E070B69E6E8864807D2CD2F94AEEB5F23D2508594ADEA4E4EE53F"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
+    }
+  ],
+  "DumpDateTime": "2020-01-02T23:25:51+01:00"
 }
 ```
