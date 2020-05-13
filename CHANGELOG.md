@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 0.18.0 - 2020-05-13
+### Added
+- One dump for `Diablo.PC-Mac.NA.1998-04-02.B232A850`.
+
+### Fixed
+- `Diablo.PC-Mac.NA.1998-04-02.B232A850` IFPI Mastering SID Code.
+
 ## 0.17.0 - 2020-03-13
 ### Added
 - One dump for `Diablo.PC.EU.2001-08-29.C2764042`.
