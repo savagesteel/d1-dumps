@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Diablo retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "FM11537(14210/DA0001) B312394-2",
+    "IfpiMasteringSidCode": "IFPI L806",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 3V10"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "F0357A308C575E2FEBB9FA1D48E501E3945F81372538758A6ABE0D7F95198324"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "6B80499E2D721D77298833E1B87B8431E16562DF7AFB07B762F8F28525EA1D4A"
+    }
+  ],
+  "DumpDateTime": "2020-05-13T21:03:27+02:00"
+}
