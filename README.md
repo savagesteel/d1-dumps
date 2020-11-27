@@ -154,3 +154,8 @@ Example JSON metadata file (Diablo PlayStation):
   "DumpDateTime": "2020-01-02T23:25:51+01:00"
 }
 ```
+
+## 3. Credits
+
+- Thanks to GalaXyHaXz to the `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE` dump.
+
