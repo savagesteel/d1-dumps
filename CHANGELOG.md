@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 - One dump for `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE`.
 
+### Fixed 
+- Fix dump date for `Diablo.PSX.PAL.1998-03-04.0D207413`.
+
 ## 0.22.0 - 2020-11-24
 ### Added 
 - One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
