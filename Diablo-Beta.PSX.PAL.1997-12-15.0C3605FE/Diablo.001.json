@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo-Beta",
+  "Platform": "PSX",
+  "Region": "PAL",
+  "CountryCodeIsoAlpha2": null,
+  "Description": null,
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": null,
+    "IfpiMasteringSidCode": null,
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": null
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo-Beta.bin",
+      "Algorithm": "SHA256",
+      "Hash": "47C3A983B65D000C4F4069A3DCA535E00C5CA720C2CB3EC831AAD4CAFAAF12E3"
+    },
+    {
+      "FileName": "Diablo-Beta.cue",
+      "Algorithm": "SHA256",
+      "Hash": "96FB22EB331A3F7840C13A844B8D496C00AFCCDF5782EBF94C60309404DF83F6"
+    }
+  ],
+  "DumpDateTime": null
+}
