@@ -5,20 +5,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## 0.24.0 - 2020-12-04
-### Added 
+### Added
+- Support for Disc Image Creator 20201101.
 - One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
 - One dump for `Diablo.PC.NA.1996-12-27.EDF6B970`.
 - One dump for `Hellfire.PC.NA.1997-09-16.E52E3E85`.
 
 ## 0.23.0 - 2020-11-27
-### Added 
+### Added
 - One dump for `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE`.
 
 ### Fixed 
 - Fix dump date for `Diablo.PSX.PAL.1998-03-04.0D207413`.
 
 ## 0.22.0 - 2020-11-24
-### Added 
+### Added
 - One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
 
 ## 0.21.1 - 2020-05-20
@@ -38,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Two dumps for `Diablo.PC.NA.1996-12-27.EDF6B970`.
 
 ### Fixed
-- Wrong dump time retrieval in d1-dump-metadata.ps1 when performing a re-dump.
+- Wrong dump time retrieval in `d1-dump-metadata.ps1` when performing a re-dump.
 
 ## 0.18.0 - 2020-05-13
 ### Added
@@ -116,7 +117,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.1.0 - 2020-01-05
 ### Added
-- Dumping PowerShell script.
+- Dump script.
 - Dump metadata file generation script.
 - Readme with project introduction and scripts explanation.
 - .gitignore to exclude the actual disc images from git.
