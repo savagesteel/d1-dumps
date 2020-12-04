@@ -1,7 +1,7 @@
 # Diablo 1 &amp; Hellfire Disc Dumps
 
 This project aims to inventory all existing versions of Diablo and Hellfire, including PSX versions.  
-The idea is to do a raw disc image of each disc build the associated metadata files containing information about the disc.
+The idea is to do a raw disc image of each disc and build the associated metadata files containing information about the disc.
 
 The process relies on two PowerShell scripts:
 1. `d1-dump.ps1` used to create the raw disc image (`.bin` and `.cue` files).
@@ -16,8 +16,8 @@ This program only works with specific CD-ROM drives listed [here](http://wiki.re
 
 Then the Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
 
-__NOTE:__ Raw disc image can also be created with IsoBuster or CloneCD but those software are not supported by `d1-dump.ps1`.  
-Dumps can be verified by dumping the same disc with one of those two software and a different drive. 
+__NOTE:__ Raw disc image can also be created with IsoBuster or CloneCD but those software are not supported by the `d1-dump.ps1` script.  
+Dumps can be verified by dumping the same disc with one of those two software and a different drive.
 
 ### 1.2 Calling the PowerShell script
 
@@ -34,7 +34,7 @@ Below two example command lines that can be used to dump a disc.
 .\d1-dump.ps1 -DriveLetter E -Game Diablo -Platorm PSX -Region NTSC-J
 ```
 
-__NOTE:__ The script has been tested with PowerShell 7.0.3 LTS.
+__NOTE:__ The scripts have been tested with PowerShell 7.0.3 LTS.
 
 ### 1.3 Folder structure
 
