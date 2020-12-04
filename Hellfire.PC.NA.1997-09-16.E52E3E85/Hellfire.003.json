@@ -1,0 +1,27 @@
+{
+  "Game": "Hellfire",
+  "Platform": "PC",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Hellfire retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "24400 5 8 \u003c8093\u003e S6995710 CD-ROM BY SIERRA",
+    "IfpiMasteringSidCode": "IFPI L488",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 8147"
+  },
+  "Checksums": [
+    {
+      "FileName": "Hellfire.bin",
+      "Algorithm": "SHA256",
+      "Hash": "20BCA53FD3260161C114A782D930354D0345E38DDD2D221345C33D6F35F6340D"
+    },
+    {
+      "FileName": "Hellfire.cue",
+      "Algorithm": "SHA256",
+      "Hash": "12D844AABF36AFEEE14ADD59E0EBD14512CD094283E36270E27D4004E202E47D"
+    }
+  ],
+  "DumpDateTime": "2020-12-04T15:33:57+01:00"
+}
