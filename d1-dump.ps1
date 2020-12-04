@@ -105,7 +105,7 @@ try
     $volumeCreationDateTimeLine = Get-Content "$dumpFolderPath\$Game`_volDesc.txt" `
         | Where-Object -FilterScript {$_ -like '*Volume Creation Date and Time:*'} | Select-Object -First 1
     $volumeCreationDateTimeText = $volumeCreationDateTimeLine.Substring($volumeCreationDateTimeLine.Length-28)
-    $volumeCreationDateTime = [System.DateTimeOffset]::ParseExact($volumeCreationDateTimeText, 'yyyy-MM-dd HH:mm:ss.ff zzz', $null)
+    $volumeCreationDateTime = [System.DateTimeOffset]::ParseExact($volumeCreationDateTimeText, 'yyyy-MM-ddTHH:mm:ss.ffzzz', $null)
     $volumeCreationDate = $volumeCreationDateTime.UtcDateTime.ToString('yyyy-MM-dd')
     Write-Host -Object "Volume creation date (UTC): $volumeCreationDate"
 }
