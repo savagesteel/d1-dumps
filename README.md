@@ -8,18 +8,23 @@ The process relies on two PowerShell scripts:
 2. `d1-dump-metadata.ps1` used to create the associated JSON metadata file.
 
 ## 1. Dumping a disc
-### 1.1 Prerequisites
+### 1.1 Introduction
 
 The dump process is largely based on the http://redump.org project.  
 The PowerShell script (`d1-dump.ps1`) used to dump a disc relies on [Disc Image Creator](https://github.com/saramibreak/DiscImageCreator) thus it needs to be downloaded and unzipped on your machine.  
 This program only works with specific CD-ROM drives listed [here](http://wiki.redump.org/index.php?title=DiscImageCreator:_Optical_Disc_Drive_Compatibility). I'm using a Plextor PX-712A drive.
 
-Then the Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
+### 1.2 Prerequisites
+
+- [PowerShell 7.0.3](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) to run the scripts.
+- [Disc Image Creator 20201101](https://github.com/saramibreak/DiscImageCreator/releases/tag/20201101) to dump the discs.
+
+__NOTE:__ The Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
 
 __NOTE:__ Raw disc image can also be created with IsoBuster or CloneCD but those software are not supported by the `d1-dump.ps1` script.  
 Dumps can be verified by dumping the same disc with one of those two software and a different drive.
 
-### 1.2 Calling the PowerShell script
+### 1.3 Calling the PowerShell script
 
 Below two example command lines that can be used to dump a disc.
 
@@ -34,9 +39,7 @@ Below two example command lines that can be used to dump a disc.
 .\d1-dump.ps1 -DriveLetter E -Game Diablo -Platorm PSX -Region NTSC-J
 ```
 
-__NOTE:__ The scripts have been tested with PowerShell 7.0.3 LTS.
-
-### 1.3 Folder structure
+### 1.4 Folder structure
 
 When calling the script Disc Image Creator is run to dump the disc as `.bin` + `.cue` in the `temp` folder.  
 Then the checksum of the `.bin` file is calculated.  
