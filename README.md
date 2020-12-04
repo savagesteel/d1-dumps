@@ -34,7 +34,7 @@ Below two example command lines that can be used to dump a disc.
 .\d1-dump.ps1 -DriveLetter E -Game Diablo -Platorm PSX -Region NTSC-J
 ```
 
-__NOTE:__ The script has been tested with PowerShell 5.1 (Default version included in Windows 10).
+__NOTE:__ The script has been tested with PowerShell 7.0.3 LTS.
 
 ### 1.3 Folder structure
 
@@ -157,5 +157,5 @@ Example JSON metadata file (Diablo PlayStation):
 
 ## 3. Credits
 
-- Thanks to GalaXyHaXz to the `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE` dump.
+- Thanks to GalaXyHaXz for the `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE` dump.
 
