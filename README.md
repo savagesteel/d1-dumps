@@ -16,7 +16,7 @@ This program only works with specific CD-ROM drives listed [here](http://wiki.re
 
 ### 1.2 Prerequisites
 
-- [PowerShell 7.0.3](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) to run the scripts.
+- [PowerShell 7.1.0](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) to run the scripts.
 - [Disc Image Creator 20201101](https://github.com/saramibreak/DiscImageCreator/releases/tag/20201101) to dump the discs.
 
 __NOTE:__ The Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
@@ -26,7 +26,7 @@ Dumps can be verified by dumping the same disc with one of those two software an
 
 ### 1.3 Calling the PowerShell script
 
-Below two example command lines that can be used to dump a disc.
+You can use the example command lines below to dump a disc.
 
 ```powershell
 # Dump a Diablo hybrid PC-Mac CD-ROM from North America which is inserted in drive D:
