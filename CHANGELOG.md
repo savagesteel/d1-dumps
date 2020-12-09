@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.25.0 - 2020-12-09
+### Added
+- Support for PowerShell 7.1.0.
+- One dump for `Diablo-Shareware.PC.NA.1997-01-18.BD801F94`.
+
 ## 0.24.0 - 2020-12-04
 ### Added
 - Support for Disc Image Creator 20201101.
@@ -16,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - One dump for `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE`.
 
 ### Fixed 
-- Fix dump date for `Diablo.PSX.PAL.1998-03-04.0D207413`.
+- Dump date for `Diablo.PSX.PAL.1998-03-04.0D207413`.
 
 ## 0.22.0 - 2020-11-24
 ### Added
