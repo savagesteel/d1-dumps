@@ -32,6 +32,14 @@ if( -not (Test-Path -Path $DumpPath\*.bin -PathType Leaf) `
     exit
 }
 
+# Count existing metadata files to determine if it's a re-dump
+$redump = $false
+$jsonFilesCount = Get-ChildItem -Path "$DumpPath\*.json" | Measure-Object | Select-Object -ExpandProperty Count
+if( $jsonFilesCount -ne 0 )
+{
+    $redump = $true
+}
+
 # Objects that will be used to generate the JSON metadata file
 $metadata = New-Object -TypeName System.Object
 $ringCodes = New-Object -TypeName System.Object
@@ -50,6 +58,13 @@ catch
     Write-Host -Object "Failed retrieving dump game, platform and region from dump folder name '$dumpFolderName'. Exiting..." -ForegroundColor Red
     Write-Host -Object $_ -ForegroundColor Red
     exit
+}
+
+# Build .bin file path
+$binFilePath = "$DumpPath\$game.bin"
+if( $redump )
+{
+    $binFilePath = "temp\$game.bin"
 }
 
 $generalText = @"
@@ -134,31 +149,32 @@ Write-Host -Object ''
 Write-Host -Object 'Generating checksums...'
 $checksums = @()
 
-$binHash = Get-FileHash -Path "$DumpPath\$Game.bin" -Algorithm SHA256
+$binHash = Get-FileHash -Path $binFilePath -Algorithm SHA256
 $obj = New-Object -TypeName System.Object
-$obj | Add-Member -MemberType NoteProperty -Name FileName -Value "$Game.bin"
+$obj | Add-Member -MemberType NoteProperty -Name FileName -Value "$game.bin"
 $obj | Add-Member -MemberType NoteProperty -Name Algorithm -Value 'SHA256'
 $obj | Add-Member -MemberType NoteProperty -Name Hash -Value $binHash.Hash
 $checksums += $obj
 
-$cueHash = Get-FileHash -Path "$DumpPath\$Game.cue" -Algorithm SHA256
+$cueHash = Get-FileHash -Path "$DumpPath\$game.cue" -Algorithm SHA256
 $obj = New-Object -TypeName System.Object
-$obj | Add-Member -MemberType NoteProperty -Name FileName -Value "$Game.cue"
+$obj | Add-Member -MemberType NoteProperty -Name FileName -Value "$game.cue"
 $obj | Add-Member -MemberType NoteProperty -Name Algorithm -Value 'SHA256'
 $obj | Add-Member -MemberType NoteProperty -Name Hash -Value $cueHash.Hash
 $checksums += $obj
 
 $metadata | Add-Member -MemberType NoteProperty -Name Checksums -Value $checksums
 
+
 # Add the dump time
 try
 {
-    $dumpDateTime = Get-Item -Path "$DumpPath\$Game.bin" | Select-Object -ExpandProperty LastWriteTime
+    $dumpDateTime = Get-Item -Path $binFilePath | Select-Object -ExpandProperty LastWriteTime
     $metadata | Add-Member -MemberType NoteProperty -Name DumpDateTime -Value $dumpDateTime.ToString('yyyy-MM-ddTHH:mm:sszzz')
 }
 catch
 {
-    Write-Host -Object "Failed retrieving dump date and time from file '$DumpPath\$Game.bin'. Exiting..." -ForegroundColor Red
+    Write-Host -Object "Failed retrieving dump date and time from file '$binFilePath'. Exiting..." -ForegroundColor Red
     Write-Host -Object $_ -ForegroundColor Red
     exit
 }
@@ -166,7 +182,6 @@ catch
 # Exporting to JSON
 try
 {
-    $jsonFilesCount = Get-ChildItem -Path "$DumpPath\*.json" | Measure-Object | Select-Object -ExpandProperty Count
     $jsonFilePath = $DumpPath + '\' + $game + '.' + ('{0:d3}' -f ($jsonFilesCount+1)) + '.json'
     $metadata | ConvertTo-Json | Set-Content -Path $jsonFilePath
 }

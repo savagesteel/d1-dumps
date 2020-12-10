@@ -1,21 +1,21 @@
 {
   "Game": "Diablo",
-  "Platform": "PC-Mac",
+  "Platform": "PC",
   "Region": "NA",
   "CountryCodeIsoAlpha2": "US",
-  "Description": "Diablo Power Macintosh game of the year retail",
+  "Description": "Diablo retail",
   "SerialNumber": null,
   "RingCodes": {
-    "MasteringCode": "03734",
-    "IfpiMasteringSidCode": "IFPI L121",
+    "MasteringCode": "FM11537(14210/DA0001) B312394-2",
+    "IfpiMasteringSidCode": "IFPI L806",
     "EngravedStampedMasteringCode": null,
-    "IfpiMouldSidCode": "IFPI 4M03"
+    "IfpiMouldSidCode": "IFPI 3V10"
   },
   "Checksums": [
     {
       "FileName": "Diablo.bin",
       "Algorithm": "SHA256",
-      "Hash": "DB6210D31B15E328D5CB007B5FB7426A2DB08D11FA46636E84F337D500BEF7B9"
+      "Hash": "F0357A308C575E2FEBB9FA1D48E501E3945F81372538758A6ABE0D7F95198324"
     },
     {
       "FileName": "Diablo.cue",
@@ -23,5 +23,5 @@
       "Hash": "6B80499E2D721D77298833E1B87B8431E16562DF7AFB07B762F8F28525EA1D4A"
     }
   ],
-  "DumpDateTime": "2020-01-02T22:34:55+01:00"
+  "DumpDateTime": "2020-05-13T21:03:27+02:00"
 }

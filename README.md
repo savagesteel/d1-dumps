@@ -1,27 +1,32 @@
 # Diablo 1 &amp; Hellfire Disc Dumps
 
 This project aims to inventory all existing versions of Diablo and Hellfire, including PSX versions.  
-The idea is to do a raw disc image of each disc build the associated metadata files containing information about the disc.
+The idea is to do a raw disc image of each disc and build the associated metadata files containing information about the disc.
 
-The process relies on two PowerShell scripts:
+The process relies on the following PowerShell scripts:
 1. `d1-dump.ps1` used to create the raw disc image (`.bin` and `.cue` files).
 2. `d1-dump-metadata.ps1` used to create the associated JSON metadata file.
 
 ## 1. Dumping a disc
-### 1.1 Prerequisites
+### 1.1 Introduction
 
 The dump process is largely based on the http://redump.org project.  
 The PowerShell script (`d1-dump.ps1`) used to dump a disc relies on [Disc Image Creator](https://github.com/saramibreak/DiscImageCreator) thus it needs to be downloaded and unzipped on your machine.  
 This program only works with specific CD-ROM drives listed [here](http://wiki.redump.org/index.php?title=DiscImageCreator:_Optical_Disc_Drive_Compatibility). I'm using a Plextor PX-712A drive.
 
-Then the Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
+### 1.2 Prerequisites
 
-__NOTE:__ Raw disc image can also be created with IsoBuster or CloneCD but those software are not supported by `d1-dump.ps1`.  
-Dumps can be verified by dumping the same disc with one of those two software and a different drive. 
+- [PowerShell 7.1.0](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) to run the scripts.
+- [Disc Image Creator 20201101](https://github.com/saramibreak/DiscImageCreator/releases/tag/20201101) to dump the discs.
 
-### 1.2 Calling the PowerShell script
+__NOTE:__ The Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
 
-Below two example command lines that can be used to dump a disc.
+__NOTE:__ Raw disc image can also be created with IsoBuster or CloneCD but those software are not supported by the `d1-dump.ps1` script.  
+Dumps can be verified by dumping the same disc with one of those two software and a different drive.
+
+### 1.3 Calling the PowerShell script
+
+You can use the following example PowerShell command lines to dump a disc.
 
 ```powershell
 # Dump a Diablo hybrid PC-Mac CD-ROM from North America which is inserted in drive D:
@@ -34,9 +39,7 @@ Below two example command lines that can be used to dump a disc.
 .\d1-dump.ps1 -DriveLetter E -Game Diablo -Platorm PSX -Region NTSC-J
 ```
 
-__NOTE:__ The script has been tested with PowerShell 5.1 (Default version included in Windows 10).
-
-### 1.3 Folder structure
+### 1.4 Folder structure
 
 When calling the script Disc Image Creator is run to dump the disc as `.bin` + `.cue` in the `temp` folder.  
 Then the checksum of the `.bin` file is calculated.  
@@ -46,6 +49,8 @@ If this checksum is unique then a folder is created with the following naming co
 
 - `<GAME>` The game name.
     - `Diablo`
+    - `Diablo-Shareware`
+    - `Diablo-Beta`
     - `Hellfire`
 - `<PLATFORM>`
     - `PC`
@@ -96,59 +101,66 @@ __NOTE:__ One disc image dump folder can contain mutiple JSON metadata files, on
 Example JSON metadata file (Diablo PC):
 ```json
 {
-    "Game":  "Diablo",
-    "Platform":  "PC-Mac",
-    "Region":  "NA",
-    "CountryCodeIsoAlpha2":  "US",
-    "SerialNumber": null,
-    "RingCodes":  {
-                      "MasteringCode":  "MFG BY CREST NATIONAL - CA 33982 59 S7118810 Diablo JCPK M/W CD CN/CA",
-                      "IfpiMasteringSidCode":  "IFPI LR68",
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI U8B4"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "0136115BD45DCFC98F7DA169D6B0AC3C6F61CD7D1234D796AA5EFD038AA6C180"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
-                      }
-                  ],
-    "DumpDateTime":  "2019-12-31T17:50:36+01:00"
+  "Game": "Diablo",
+  "Platform": "PC",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Diablo retail",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "FM11537(14210/DA0001) B312394-2",
+    "IfpiMasteringSidCode": "IFPI L806",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 3V11"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "F0357A308C575E2FEBB9FA1D48E501E3945F81372538758A6ABE0D7F95198324"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "6B80499E2D721D77298833E1B87B8431E16562DF7AFB07B762F8F28525EA1D4A"
+    }
+  ],
+  "DumpDateTime": "2020-02-03T20:07:22+01:00"
 }
 ```
 
 Example JSON metadata file (Diablo PlayStation):
 ```json
 {
-    "Game":  "Diablo",
-    "Platform":  "PSX",
-    "Region":  "NTSC-UC",
-    "CountryCodeIsoAlpha2":  null,
-    "SerialNumber":  "SLUS-00619",
-    "RingCodes":  {
-                      "MasteringCode":  null,
-                      "IfpiMasteringSidCode":  null,
-                      "EngravedStampedMasteringCode":  null,
-                      "IfpiMouldSidCode":  "IFPI 5008"
-                  },
-    "Checksums":  [
-                      {
-                          "FileName":  "Diablo.bin",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "A68BF47E0D0E070B69E6E8864807D2CD2F94AEEB5F23D2508594ADEA4E4EE53F"
-                      },
-                      {
-                          "FileName":  "Diablo.cue",
-                          "Algorithm":  "SHA256",
-                          "Hash":  "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
-                      }
-                  ],
-    "DumpDateTime":  "2020-01-02T23:25:51+01:00"
+  "Game": "Diablo",
+  "Platform": "PSX",
+  "Region": "NTSC-UC",
+  "CountryCodeIsoAlpha2": null,
+  "Description": null,
+  "SerialNumber": "SLUS-00619",
+  "RingCodes": {
+    "MasteringCode": null,
+    "IfpiMasteringSidCode": null,
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 5008"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo.bin",
+      "Algorithm": "SHA256",
+      "Hash": "A68BF47E0D0E070B69E6E8864807D2CD2F94AEEB5F23D2508594ADEA4E4EE53F"
+    },
+    {
+      "FileName": "Diablo.cue",
+      "Algorithm": "SHA256",
+      "Hash": "F4B4A9FA31BD98659D161E2F980EC7BB16F5E4262D225CB249909568769C990F"
+    }
+  ],
+  "DumpDateTime": "2020-01-02T23:25:51+01:00"
 }
 ```
+
+## 3. Credits
+
+- Thanks to GalaXyHaXz for the `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE` dump.
+

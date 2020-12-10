@@ -4,6 +4,55 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.25.0 - 2020-12-10
+### Added
+- Support for PowerShell 7.1.0.
+- One dump for `Diablo-Shareware.PC.NA.1997-01-18.BD801F94`.
+- One dump for `Diablo.PC-Mac.NA.1998-04-02.B232A850`.
+
+## 0.24.0 - 2020-12-04
+### Added
+- Support for Disc Image Creator 20201101.
+- One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
+- One dump for `Diablo.PC.NA.1996-12-27.EDF6B970`.
+- One dump for `Hellfire.PC.NA.1997-09-16.E52E3E85`.
+
+## 0.23.0 - 2020-11-27
+### Added
+- One dump for `Diablo-Beta.PSX.PAL.1997-12-15.0C3605FE`.
+
+### Fixed 
+- Dump date for `Diablo.PSX.PAL.1998-03-04.0D207413`.
+
+## 0.22.0 - 2020-11-24
+### Added
+- One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
+
+## 0.21.1 - 2020-05-20
+### Fixed 
+- Dump name for `Diablo-Shareware.PC.NA.1997-01-18.BD801F94`.
+
+## 0.21.0 - 2020-05-20
+### Added
+- One dump for `Diablo-Shareware.PC.NA.19970118.BD801F94`.
+
+## 0.20.0 - 2020-05-18
+### Added
+- One dump for `Diablo.PC-Mac.EU.1999-04-16.EF082CBB`.
+
+## 0.19.0 - 2020-05-13
+### Added
+- Two dumps for `Diablo.PC.NA.1996-12-27.EDF6B970`.
+
+### Fixed
+- Wrong dump time retrieval in `d1-dump-metadata.ps1` when performing a re-dump.
+
+## 0.18.0 - 2020-05-13
+### Added
+- One dump for `Diablo.PC-Mac.NA.1998-04-02.B232A850`.
+
+### Fixed
+- `Diablo.PC-Mac.NA.1998-04-02.B232A850` IFPI Mastering SID Code.
 
 ## 0.17.0 - 2020-03-13
 ### Added
@@ -74,7 +123,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.1.0 - 2020-01-05
 ### Added
-- Dumping PowerShell script.
+- Dump script.
 - Dump metadata file generation script.
 - Readme with project introduction and scripts explanation.
 - .gitignore to exclude the actual disc images from git.

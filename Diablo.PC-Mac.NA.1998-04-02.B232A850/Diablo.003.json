@@ -6,10 +6,10 @@
   "Description": "Diablo Power Macintosh game of the year retail",
   "SerialNumber": null,
   "RingCodes": {
-    "MasteringCode": "03734",
-    "IfpiMasteringSidCode": "IFPI L121",
-    "EngravedStampedMasteringCode": null,
-    "IfpiMouldSidCode": "IFPI 4M03"
+    "MasteringCode": "NIMBUS  C4  146957-02  03734",
+    "IfpiMasteringSidCode": "IFPI L894",
+    "EngravedStampedMasteringCode": "NIMBUS/CA",
+    "IfpiMouldSidCode": "IFPI 2T04"
   },
   "Checksums": [
     {
@@ -23,5 +23,5 @@
       "Hash": "6B80499E2D721D77298833E1B87B8431E16562DF7AFB07B762F8F28525EA1D4A"
     }
   ],
-  "DumpDateTime": "2020-01-02T22:34:55+01:00"
+  "DumpDateTime": "2020-12-10T11:33:02+01:00"
 }

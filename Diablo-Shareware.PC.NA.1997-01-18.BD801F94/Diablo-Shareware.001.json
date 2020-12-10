@@ -1,0 +1,27 @@
+{
+  "Game": "Diablo-Shareware",
+  "Platform": "PC",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "US",
+  "Description": "Diablo shareware",
+  "SerialNumber": null,
+  "RingCodes": {
+    "MasteringCode": "S-01241",
+    "IfpiMasteringSidCode": "IFPI L121",
+    "EngravedStampedMasteringCode": null,
+    "IfpiMouldSidCode": "IFPI 8010"
+  },
+  "Checksums": [
+    {
+      "FileName": "Diablo-Shareware.bin",
+      "Algorithm": "SHA256",
+      "Hash": "11C63D036B2DC3EF1534B9949D0C68160E036605A23020F43C5D3EE51C22B0D9"
+    },
+    {
+      "FileName": "Diablo-Shareware.cue",
+      "Algorithm": "SHA256",
+      "Hash": "6B8D6DA06339A3A1DB7179BBFBDFA92459AC0B6DEDDABCDD384D66ADE75DA621"
+    }
+  ],
+  "DumpDateTime": "2020-05-20T17:11:24+02:00"
+}
