@@ -49,6 +49,8 @@ If this checksum is unique then a folder is created with the following naming co
 
 - `<GAME>` The game name.
     - `Diablo`
+    - `Diablo-Shareware`
+    - `Diablo-Beta`
     - `Hellfire`
 - `<PLATFORM>`
     - `PC`
