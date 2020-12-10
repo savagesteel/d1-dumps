@@ -3,7 +3,7 @@
 This project aims to inventory all existing versions of Diablo and Hellfire, including PSX versions.  
 The idea is to do a raw disc image of each disc and build the associated metadata files containing information about the disc.
 
-The process relies on two PowerShell scripts:
+The process relies on the following PowerShell scripts:
 1. `d1-dump.ps1` used to create the raw disc image (`.bin` and `.cue` files).
 2. `d1-dump-metadata.ps1` used to create the associated JSON metadata file.
 
@@ -26,7 +26,7 @@ Dumps can be verified by dumping the same disc with one of those two software an
 
 ### 1.3 Calling the PowerShell script
 
-You can use the example command lines below to dump a disc.
+You can use the following example PowerShell command lines to dump a disc.
 
 ```powershell
 # Dump a Diablo hybrid PC-Mac CD-ROM from North America which is inserted in drive D:
