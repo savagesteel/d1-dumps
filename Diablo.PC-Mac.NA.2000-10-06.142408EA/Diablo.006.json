@@ -1,21 +1,21 @@
 {
   "Game": "Diablo",
   "Platform": "PC-Mac",
-  "Region": "EU",
-  "CountryCodeIsoAlpha2": "DE",
-  "Description": "Diablo retail Best Seller Series (S0024950)",
+  "Region": "NA",
+  "CountryCodeIsoAlpha2": "AU",
+  "Description": "Diablo best seller series",
   "SerialNumber": null,
   "RingCodes": {
-    "MasteringCode": "50326646/DIAB1FFBS 24",
-    "IfpiMasteringSidCode": "IFPI LB46",
+    "MasteringCode": "BS04313  6112008210",
+    "IfpiMasteringSidCode": "IFPI L471",
     "EngravedStampedMasteringCode": null,
-    "IfpiMouldSidCode": "IFPI 0765"
+    "IfpiMouldSidCode": "IFPI 7932"
   },
   "Checksums": [
     {
       "FileName": "Diablo.bin",
       "Algorithm": "SHA256",
-      "Hash": "A8284113807063F57595B632013AC9F03C1A19BE7327DCF81F41D10D4166A8E9"
+      "Hash": "0136115BD45DCFC98F7DA169D6B0AC3C6F61CD7D1234D796AA5EFD038AA6C180"
     },
     {
       "FileName": "Diablo.cue",
@@ -23,5 +23,5 @@
       "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
     }
   ],
-  "DumpDateTime": "2020-01-29T20:51:48+01:00"
+  "DumpDateTime": "2021-01-04T11:33:42+01:00"
 }

@@ -6,10 +6,10 @@
   "Description": "Diablo retail Best Seller Series (S0024950)",
   "SerialNumber": null,
   "RingCodes": {
-    "MasteringCode": "50326646/DIAB1FFBS 24",
-    "IfpiMasteringSidCode": "IFPI LB46",
+    "MasteringCode": "50326646/DIAB1FFBS 22",
+    "IfpiMasteringSidCode": "IFPI LB47",
     "EngravedStampedMasteringCode": null,
-    "IfpiMouldSidCode": "IFPI 0765"
+    "IfpiMouldSidCode": "IFPI 0711"
   },
   "Checksums": [
     {
@@ -23,5 +23,5 @@
       "Hash": "9B7FF382401FC5A9E5E7AF0F4963B2B51334CE14250E40BD1A041138BF793399"
     }
   ],
-  "DumpDateTime": "2020-01-29T20:51:48+01:00"
+  "DumpDateTime": "2020-12-23T16:24:46+01:00"
 }

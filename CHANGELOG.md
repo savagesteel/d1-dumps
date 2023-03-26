@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.28.0 - 2023-03-26
+### Added
+- Support for PowerShell 7.3.x
+- Support for Disc Image Creator 20230309.
+- One dump for `Diablo.PC.EU.2001-04-20.70AA7258`.
+
+## 0.27.0 - 2021-01-08
+### Added
+- One dump for `Diablo.PC-Mac.NA.2000-10-06.142408EA`.
+
+## 0.26.0 - 2020-12-23
+### Added
+- One dump for `Diablo.PC.EU.2001-08-29.C2764042`.
+
+### Fixed 
+- Dump mastering code for `Diablo.PC.EU.2001-08-29.C2764042`.
+
 ## 0.25.0 - 2020-12-10
 ### Added
 - Support for PowerShell 7.1.0.
