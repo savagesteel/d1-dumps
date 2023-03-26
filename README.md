@@ -16,8 +16,8 @@ This program only works with specific CD-ROM drives listed [here](http://wiki.re
 
 ### 1.2 Prerequisites
 
-- [PowerShell 7.1.0](https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3) to run the scripts.
-- [Disc Image Creator 20201101](https://github.com/saramibreak/DiscImageCreator/releases/tag/20201101) to dump the discs.
+- [PowerShell 7.3.x](https://github.com/PowerShell/PowerShell/releases) to run the scripts.
+- [Disc Image Creator 20230309](https://github.com/saramibreak/DiscImageCreator/releases/tag/20230309) to dump the discs.
 
 __NOTE:__ The Disc Image Creator release folder (e.g. `C:\Program Files\DiscImageCreator\Release_ANSI`) needs to be added to the `PATH` to allow the `DiscImageCreator` command to be called by `d1-dump.ps1`.
 
